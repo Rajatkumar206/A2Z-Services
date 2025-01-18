@@ -10,6 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/heroes/hero-5/assets/css/hero-5.css">
+
     <!-- AOS Librreary for Animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
@@ -78,55 +81,28 @@
                 <a class="navbar-brand fs-3 pe-5" href="#"><span class="text-primary"></span></a>
             </div> -->
         </nav>
-    </header>
+    
     <!-- Navbar End -->
 
     <!-- Herosection start -->
-    <section class="Hero_section my-5" data-aos="zoom-in" data-aos-offset="200">
-        <div class="">
-            <div class="position-relative overflow-hidden">
-                <div class="d-flex min-vh-100 " lc-helper="video-bg">
-                    <video style="z-index:1;object-fit: cover; object-position: 50% 50%;"
-                        class="position-absolute w-100 min-vh-100" autoplay="" preload="" muted="" loop=""
-                        playsinline="">
-                        <!-- adjust object-position to tweak cropping on mobile -->
-                        <source src="https://cdn.livecanvas.com/media/nature/video.mp4" type="video/mp4">
-                    </video>
-                    <div style="z-index:2" class="align-self-center text-center text-light col-md-8 offset-md-2">
-                        <div class="lc-block mb-4">
-                            <div editable="rich">
-                                <h1 class="display-1 fw-bolder">With Love and Respect</h1>
-                            </div>
-                        </div>
-
-                        <div class="lc-block">
-                            <div editable="rich">
-                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus
-                                    porttitor dui.</p>
-
-                                <p class="lead">Sim in vestibulum metus pulvinar sit amet.
-
-                                </p>
-
-                            </div>
-                        </div>
-
-                        <div class="lc-block">
-                            <svg width="4em" height="4em" viewBox="0 0 16 16" lc-helper="svg-icon" fill="currentColor"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
-                                <path fill-rule="evenodd"
-                                    d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z">
-                                </path>
-                            </svg>
-
-                        </div>
+    <!-- Hero 5 - Bootstrap Brain Component -->
+    <section class="bsb-hero-5 px-3 bsb-overlay" style="background-image: url('./Images/bg2.jpg');">
+        <div class="container">
+            <div class="row justify-content-md-center align-items-center">
+                <div class="col-12 col-md-11 col-lg-9 col-xl-8 col-xxl-7">
+                    <h2 class="display-1 text-white text-center fw-bold mb-4">Dream of Success</h2>
+                    <p class="lead text-white text-center mb-5 d-flex justify-content-sm-center">
+                        <span class="col-12 col-sm-10 col-md-8 col-xxl-7">There are three ways to ultimate success: The
+                            first way is to be kind. The second way is to be kind. The third way is to be kind.</span>
+                    </p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <button type="button" class="btn bsb-btn-2xl btn-outline-light">Free Consultation</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+</header>
     <!-- Herosection end -->
 
     <!-- About Section Start -->
@@ -321,7 +297,7 @@
 
                 <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
                     <div class="card">
-                        <div class="card-body text-center"  data-aos="zoom-in" data-aos-offset="200">
+                        <div class="card-body text-center" data-aos="zoom-in" data-aos-offset="200">
                             <img src="./Images/Product/p6.jpg " class="img-fluid rounded-circle p-2 my-3" alt="">
                             <h5 class="card-title fw-semibold fs-4">Bimal Kumar Das</h5>
                             <p class="card-text">With supporting text below as a natural </p>
@@ -331,7 +307,7 @@
 
                 <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
                     <div class="card">
-                        <div class="card-body text-center"  data-aos="zoom-in" data-aos-offset="200">
+                        <div class="card-body text-center" data-aos="zoom-in" data-aos-offset="200">
                             <img src="./Images/Product/p6.jpg " class="img-fluid rounded-circle p-2 my-3" alt="">
                             <h5 class="card-title fw-semibold fs-4">Saroj Kumar Das</h5>
                             <p class="card-text">With supporting text below as a natural </p>
@@ -345,23 +321,23 @@
     <!-- Team Section end -->
 
     <!-- Contact_Section start -->
-     <section class="Contact">
+    <section class="Contact">
         <div class="container">
             <div class="row">
                 <div col-sm></div>
             </div>
         </div>
 
-     </section>
+    </section>
     <!-- Contact_Section end -->
 
     <!-- footer start -->
-     <section class="footer">
+    <section class="footer">
         <div class="container-fluid text-center bg-primary p-3 ">
             Developed by Rajat
         </div>
-     </section>
-     <!-- footer end -->
+    </section>
+    <!-- footer end -->
 
 
 
